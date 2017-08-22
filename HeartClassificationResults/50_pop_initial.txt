@@ -1,0 +1,439 @@
+Population_0
+ Functions: Activ tanh Optim Adam Loss mean_squared_error Weight init lecun_uniform
+Nr_layers :10
+Neurones for layer_0 7
+--------Neurones for layer_1 3
+--------Neurones for layer_2 31
+--------Neurones for layer_3 27
+--------Neurones for layer_4 17
+--------Neurones for layer_5 3
+--------Neurones for layer_6 6
+--------Neurones for layer_7 12
+--------Neurones for layer_8 3
+--------Neurones for layer_9 33
+--------Fitness:(53.695563727828322,)---------------------------------------------------------------Population_1
+ Functions: Activ relu Optim Nadam Loss mean_squared_error Weight init he_uniform
+Nr_layers :5
+Neurones for layer_0 20
+--------Neurones for layer_1 45
+--------Neurones for layer_2 10
+--------Neurones for layer_3 41
+--------Neurones for layer_4 35
+--------Fitness:(54.765975118217114,)---------------------------------------------------------------Population_2
+ Functions: Activ relu Optim SGD Loss kullback_leibler_divergence Weight init glorot_normal
+Nr_layers :6
+Neurones for layer_0 36
+--------Neurones for layer_1 18
+--------Neurones for layer_2 49
+--------Neurones for layer_3 3
+--------Neurones for layer_4 47
+--------Neurones for layer_5 38
+--------Fitness:(55.889296197386642,)---------------------------------------------------------------Population_3
+ Functions: Activ elu Optim RMSprop Loss mean_absolute_percentage_error Weight init he_normal
+Nr_layers :10
+Neurones for layer_0 36
+--------Neurones for layer_1 43
+--------Neurones for layer_2 14
+--------Neurones for layer_3 25
+--------Neurones for layer_4 3
+--------Neurones for layer_5 9
+--------Neurones for layer_6 23
+--------Neurones for layer_7 37
+--------Neurones for layer_8 46
+--------Neurones for layer_9 10
+--------Fitness:(54.43630430384966,)---------------------------------------------------------------Population_4
+ Functions: Activ relu Optim Adam Loss mean_absolute_error Weight init he_normal
+Nr_layers :6
+Neurones for layer_0 26
+--------Neurones for layer_1 16
+--------Neurones for layer_2 40
+--------Neurones for layer_3 2
+--------Neurones for layer_4 23
+--------Neurones for layer_5 14
+--------Fitness:(54.440374549783051,)---------------------------------------------------------------Population_5
+ Functions: Activ softsign Optim Adam Loss mean_absolute_percentage_error Weight init lecun_uniform
+Nr_layers :4
+Neurones for layer_0 29
+--------Neurones for layer_1 30
+--------Neurones for layer_2 29
+--------Neurones for layer_3 19
+--------Fitness:(58.461538941383743,)---------------------------------------------------------------Population_6
+ Functions: Activ relu Optim Adagrad Loss categorical_crossentropy Weight init glorot_normal
+Nr_layers :8
+Neurones for layer_0 17
+--------Neurones for layer_1 16
+--------Neurones for layer_2 31
+--------Neurones for layer_3 9
+--------Neurones for layer_4 49
+--------Neurones for layer_5 46
+--------Neurones for layer_6 35
+--------Neurones for layer_7 9
+--------Fitness:(54.420024378298741,)---------------------------------------------------------------Population_7
+ Functions: Activ tanh Optim Adam Loss mean_squared_logarithmic_error Weight init glorot_normal
+Nr_layers :4
+Neurones for layer_0 21
+--------Neurones for layer_1 12
+--------Neurones for layer_2 43
+--------Neurones for layer_3 14
+--------Fitness:(55.905575643092284,)---------------------------------------------------------------Population_8
+ Functions: Activ softplus Optim SGD Loss mean_squared_error Weight init he_uniform
+Nr_layers :2
+Neurones for layer_0 35
+--------Neurones for layer_1 29
+--------Fitness:(56.255596321581045,)---------------------------------------------------------------Population_9
+ Functions: Activ relu Optim RMSprop Loss categorical_crossentropy Weight init he_uniform
+Nr_layers :10
+Neurones for layer_0 32
+--------Neurones for layer_1 25
+--------Neurones for layer_2 45
+--------Neurones for layer_3 20
+--------Neurones for layer_4 27
+--------Neurones for layer_5 25
+--------Neurones for layer_6 28
+--------Neurones for layer_7 17
+--------Neurones for layer_8 21
+--------Neurones for layer_9 25
+--------Fitness:(43.369963414114956,)---------------------------------------------------------------Population_10
+ Functions: Activ sigmoid Optim SGD Loss squared_hinge Weight init glorot_normal
+Nr_layers :4
+Neurones for layer_0 44
+--------Neurones for layer_1 39
+--------Neurones for layer_2 50
+--------Neurones for layer_3 6
+--------Fitness:(54.411884709058569,)---------------------------------------------------------------Population_11
+ Functions: Activ softsign Optim Adam Loss categorical_crossentropy Weight init lecun_uniform
+Nr_layers :3
+Neurones for layer_0 7
+--------Neurones for layer_1 14
+--------Neurones for layer_2 4
+--------Fitness:(57.334147402558038,)---------------------------------------------------------------Population_12
+ Functions: Activ softsign Optim Adagrad Loss hinge Weight init he_uniform
+Nr_layers :10
+Neurones for layer_0 6
+--------Neurones for layer_1 21
+--------Neurones for layer_2 29
+--------Neurones for layer_3 18
+--------Neurones for layer_4 13
+--------Neurones for layer_5 14
+--------Neurones for layer_6 38
+--------Neurones for layer_7 5
+--------Neurones for layer_8 8
+--------Neurones for layer_9 2
+--------Fitness:(54.395604209536991,)---------------------------------------------------------------Population_13
+ Functions: Activ tanh Optim Nadam Loss mean_squared_error Weight init he_uniform
+Nr_layers :1
+Neurones for layer_0 32
+--------Fitness:(55.510785161454258,)---------------------------------------------------------------Population_14
+ Functions: Activ sigmoid Optim Nadam Loss mean_squared_logarithmic_error Weight init he_normal
+Nr_layers :8
+Neurones for layer_0 35
+--------Neurones for layer_1 7
+--------Neurones for layer_2 14
+--------Neurones for layer_3 42
+--------Neurones for layer_4 5
+--------Neurones for layer_5 28
+--------Neurones for layer_6 5
+--------Neurones for layer_7 21
+--------Fitness:(58.453398543157185,)---------------------------------------------------------------Population_15
+ Functions: Activ relu Optim Adamax Loss kullback_leibler_divergence Weight init glorot_normal
+Nr_layers :5
+Neurones for layer_0 3
+--------Neurones for layer_1 26
+--------Neurones for layer_2 31
+--------Neurones for layer_3 11
+--------Neurones for layer_4 17
+--------Fitness:(55.136345179526359,)---------------------------------------------------------------Population_16
+ Functions: Activ relu Optim Adamax Loss poisson Weight init glorot_normal
+Nr_layers :1
+Neurones for layer_0 37
+--------Fitness:(57.741147896406083,)---------------------------------------------------------------Population_17
+ Functions: Activ softsign Optim Adagrad Loss mean_squared_logarithmic_error Weight init glorot_normal
+Nr_layers :4
+Neurones for layer_0 27
+--------Neurones for layer_1 36
+--------Neurones for layer_2 18
+--------Neurones for layer_3 29
+--------Fitness:(58.078958168716802,)---------------------------------------------------------------Population_18
+ Functions: Activ softsign Optim Nadam Loss squared_hinge Weight init lecun_uniform
+Nr_layers :9
+Neurones for layer_0 2
+--------Neurones for layer_1 34
+--------Neurones for layer_2 30
+--------Neurones for layer_3 41
+--------Neurones for layer_4 15
+--------Neurones for layer_5 23
+--------Neurones for layer_6 26
+--------Neurones for layer_7 35
+--------Neurones for layer_8 45
+--------Fitness:(58.44118905494404,)---------------------------------------------------------------Population_19
+ Functions: Activ relu Optim Adam Loss kullback_leibler_divergence Weight init lecun_uniform
+Nr_layers :8
+Neurones for layer_0 14
+--------Neurones for layer_1 21
+--------Neurones for layer_2 5
+--------Neurones for layer_3 35
+--------Neurones for layer_4 38
+--------Neurones for layer_5 42
+--------Neurones for layer_6 21
+--------Neurones for layer_7 31
+--------Fitness:(49.654049631246089,)---------------------------------------------------------------Population_20
+ Functions: Activ sigmoid Optim Adadelta Loss mean_absolute_percentage_error Weight init he_normal
+Nr_layers :8
+Neurones for layer_0 14
+--------Neurones for layer_1 31
+--------Neurones for layer_2 38
+--------Neurones for layer_3 27
+--------Neurones for layer_4 48
+--------Neurones for layer_5 19
+--------Neurones for layer_6 31
+--------Neurones for layer_7 10
+--------Fitness:(54.411884302233211,)---------------------------------------------------------------Population_21
+ Functions: Activ elu Optim RMSprop Loss hinge Weight init glorot_normal
+Nr_layers :10
+Neurones for layer_0 26
+--------Neurones for layer_1 10
+--------Neurones for layer_2 42
+--------Neurones for layer_3 13
+--------Neurones for layer_4 16
+--------Neurones for layer_5 40
+--------Neurones for layer_6 25
+--------Neurones for layer_7 20
+--------Neurones for layer_8 38
+--------Neurones for layer_9 34
+--------Fitness:(60.317460428567074,)---------------------------------------------------------------Population_22
+ Functions: Activ relu Optim Nadam Loss cosine_proximity Weight init he_normal
+Nr_layers :4
+Neurones for layer_0 10
+--------Neurones for layer_1 9
+--------Neurones for layer_2 27
+--------Neurones for layer_3 22
+--------Fitness:(58.445258426336331,)---------------------------------------------------------------Population_23
+ Functions: Activ relu Optim Adagrad Loss mean_absolute_error Weight init lecun_uniform
+Nr_layers :8
+Neurones for layer_0 45
+--------Neurones for layer_1 16
+--------Neurones for layer_2 40
+--------Neurones for layer_3 43
+--------Neurones for layer_4 17
+--------Neurones for layer_5 13
+--------Neurones for layer_6 14
+--------Neurones for layer_7 44
+--------Fitness:(54.399674606119468,)---------------------------------------------------------------Population_24
+ Functions: Activ tanh Optim Adamax Loss poisson Weight init lecun_uniform
+Nr_layers :10
+Neurones for layer_0 35
+--------Neurones for layer_1 2
+--------Neurones for layer_2 33
+--------Neurones for layer_3 18
+--------Neurones for layer_4 41
+--------Neurones for layer_5 40
+--------Neurones for layer_6 50
+--------Neurones for layer_7 4
+--------Neurones for layer_8 27
+--------Neurones for layer_9 44
+--------Fitness:(55.881155968488692,)---------------------------------------------------------------Population_25
+ Functions: Activ softsign Optim Adadelta Loss poisson Weight init lecun_uniform
+Nr_layers :4
+Neurones for layer_0 50
+--------Neurones for layer_1 18
+--------Neurones for layer_2 6
+--------Neurones for layer_3 31
+--------Fitness:(62.503052699793926,)---------------------------------------------------------------Population_26
+ Functions: Activ elu Optim Nadam Loss kullback_leibler_divergence Weight init he_normal
+Nr_layers :4
+Neurones for layer_0 41
+--------Neurones for layer_1 35
+--------Neurones for layer_2 44
+--------Neurones for layer_3 35
+--------Fitness:(58.066748200658388,)---------------------------------------------------------------Population_27
+ Functions: Activ tanh Optim Adagrad Loss hinge Weight init he_normal
+Nr_layers :6
+Neurones for layer_0 29
+--------Neurones for layer_1 46
+--------Neurones for layer_2 45
+--------Neurones for layer_3 32
+--------Neurones for layer_4 4
+--------Neurones for layer_5 38
+--------Fitness:(56.963777119035292,)---------------------------------------------------------------Population_28
+ Functions: Activ softplus Optim Nadam Loss mean_absolute_percentage_error Weight init glorot_normal
+Nr_layers :7
+Neurones for layer_0 48
+--------Neurones for layer_1 22
+--------Neurones for layer_2 46
+--------Neurones for layer_3 24
+--------Neurones for layer_4 25
+--------Neurones for layer_5 17
+--------Neurones for layer_6 4
+--------Fitness:(54.407814123982767,)---------------------------------------------------------------Population_29
+ Functions: Activ elu Optim Adam Loss categorical_crossentropy Weight init he_uniform
+Nr_layers :8
+Neurones for layer_0 13
+--------Neurones for layer_1 5
+--------Neurones for layer_2 31
+--------Neurones for layer_3 47
+--------Neurones for layer_4 32
+--------Neurones for layer_5 22
+--------Neurones for layer_6 4
+--------Neurones for layer_7 18
+--------Fitness:(54.424094706955707,)---------------------------------------------------------------Population_30
+ Functions: Activ relu Optim Adadelta Loss mean_absolute_error Weight init he_uniform
+Nr_layers :5
+Neurones for layer_0 12
+--------Neurones for layer_1 30
+--------Neurones for layer_2 3
+--------Neurones for layer_3 23
+--------Neurones for layer_4 49
+--------Fitness:(54.391534719275029,)---------------------------------------------------------------Population_31
+ Functions: Activ softsign Optim Adadelta Loss mean_absolute_error Weight init glorot_normal
+Nr_layers :1
+Neurones for layer_0 22
+--------Fitness:(59.181929640426453,)---------------------------------------------------------------Population_32
+ Functions: Activ relu Optim Adagrad Loss mean_absolute_percentage_error Weight init he_uniform
+Nr_layers :7
+Neurones for layer_0 22
+--------Neurones for layer_1 39
+--------Neurones for layer_2 22
+--------Neurones for layer_3 22
+--------Neurones for layer_4 26
+--------Neurones for layer_5 41
+--------Neurones for layer_6 2
+--------Fitness:(54.407814101179206,)---------------------------------------------------------------Population_33
+ Functions: Activ tanh Optim RMSprop Loss categorical_crossentropy Weight init lecun_uniform
+Nr_layers :3
+Neurones for layer_0 32
+--------Neurones for layer_1 13
+--------Neurones for layer_2 12
+--------Fitness:(58.091168617590881,)---------------------------------------------------------------Population_34
+ Functions: Activ sigmoid Optim RMSprop Loss hinge Weight init lecun_uniform
+Nr_layers :8
+Neurones for layer_0 40
+--------Neurones for layer_1 24
+--------Neurones for layer_2 16
+--------Neurones for layer_3 41
+--------Neurones for layer_4 26
+--------Neurones for layer_5 39
+--------Neurones for layer_6 30
+--------Neurones for layer_7 14
+--------Fitness:(54.432234366734825,)---------------------------------------------------------------Population_35
+ Functions: Activ softplus Optim SGD Loss mean_absolute_error Weight init lecun_uniform
+Nr_layers :8
+Neurones for layer_0 25
+--------Neurones for layer_1 40
+--------Neurones for layer_2 38
+--------Neurones for layer_3 50
+--------Neurones for layer_4 3
+--------Neurones for layer_5 2
+--------Neurones for layer_6 46
+--------Neurones for layer_7 44
+--------Fitness:(54.415954503287232,)---------------------------------------------------------------Population_36
+ Functions: Activ tanh Optim Adagrad Loss mean_squared_logarithmic_error Weight init glorot_normal
+Nr_layers :3
+Neurones for layer_0 19
+--------Neurones for layer_1 49
+--------Neurones for layer_2 42
+--------Fitness:(58.823768920562692,)---------------------------------------------------------------Population_37
+ Functions: Activ tanh Optim RMSprop Loss categorical_crossentropy Weight init glorot_normal
+Nr_layers :2
+Neurones for layer_0 31
+--------Neurones for layer_1 47
+--------Fitness:(58.819699520302045,)---------------------------------------------------------------Population_38
+ Functions: Activ softplus Optim Nadam Loss mean_absolute_percentage_error Weight init he_uniform
+Nr_layers :1
+Neurones for layer_0 38
+--------Fitness:(59.930809955069044,)---------------------------------------------------------------Population_39
+ Functions: Activ softsign Optim SGD Loss mean_absolute_error Weight init glorot_normal
+Nr_layers :8
+Neurones for layer_0 38
+--------Neurones for layer_1 13
+--------Neurones for layer_2 7
+--------Neurones for layer_3 2
+--------Neurones for layer_4 19
+--------Neurones for layer_5 37
+--------Neurones for layer_6 8
+--------Neurones for layer_7 38
+--------Fitness:(54.411884520565252,)---------------------------------------------------------------Population_40
+ Functions: Activ sigmoid Optim Adagrad Loss cosine_proximity Weight init lecun_uniform
+Nr_layers :10
+Neurones for layer_0 48
+--------Neurones for layer_1 12
+--------Neurones for layer_2 22
+--------Neurones for layer_3 4
+--------Neurones for layer_4 22
+--------Neurones for layer_5 37
+--------Neurones for layer_6 13
+--------Neurones for layer_7 42
+--------Neurones for layer_8 33
+--------Neurones for layer_9 10
+--------Fitness:(54.403744603154315,)---------------------------------------------------------------Population_41
+ Functions: Activ tanh Optim RMSprop Loss poisson Weight init lecun_uniform
+Nr_layers :2
+Neurones for layer_0 45
+--------Neurones for layer_1 9
+--------Fitness:(57.712657537506907,)---------------------------------------------------------------Population_42
+ Functions: Activ elu Optim Adadelta Loss mean_squared_logarithmic_error Weight init he_uniform
+Nr_layers :6
+Neurones for layer_0 42
+--------Neurones for layer_1 18
+--------Neurones for layer_2 25
+--------Neurones for layer_3 16
+--------Neurones for layer_4 47
+--------Neurones for layer_5 40
+--------Fitness:(55.502645698659158,)---------------------------------------------------------------Population_43
+ Functions: Activ tanh Optim Adagrad Loss mean_absolute_percentage_error Weight init lecun_uniform
+Nr_layers :5
+Neurones for layer_0 6
+--------Neurones for layer_1 40
+--------Neurones for layer_2 50
+--------Neurones for layer_3 2
+--------Neurones for layer_4 50
+--------Fitness:(58.103377752591307,)---------------------------------------------------------------Population_44
+ Functions: Activ softsign Optim Adam Loss kullback_leibler_divergence Weight init he_uniform
+Nr_layers :3
+Neurones for layer_0 21
+--------Neurones for layer_1 10
+--------Neurones for layer_2 21
+--------Fitness:(58.844119061480512,)---------------------------------------------------------------Population_45
+ Functions: Activ softplus Optim Nadam Loss mean_absolute_percentage_error Weight init he_uniform
+Nr_layers :6
+Neurones for layer_0 26
+--------Neurones for layer_1 35
+--------Neurones for layer_2 42
+--------Neurones for layer_3 22
+--------Neurones for layer_4 25
+--------Neurones for layer_5 30
+--------Fitness:(54.379324466657202,)---------------------------------------------------------------Population_46
+ Functions: Activ softsign Optim Adadelta Loss squared_hinge Weight init he_uniform
+Nr_layers :3
+Neurones for layer_0 43
+--------Neurones for layer_1 21
+--------Neurones for layer_2 22
+--------Fitness:(55.160765578507117,)---------------------------------------------------------------Population_47
+ Functions: Activ elu Optim RMSprop Loss kullback_leibler_divergence Weight init he_uniform
+Nr_layers :8
+Neurones for layer_0 13
+--------Neurones for layer_1 36
+--------Neurones for layer_2 44
+--------Neurones for layer_3 13
+--------Neurones for layer_4 16
+--------Neurones for layer_5 24
+--------Neurones for layer_6 22
+--------Neurones for layer_7 41
+--------Fitness:(55.901505639022275,)---------------------------------------------------------------Population_48
+ Functions: Activ elu Optim SGD Loss mean_squared_error Weight init he_uniform
+Nr_layers :9
+Neurones for layer_0 38
+--------Neurones for layer_1 10
+--------Neurones for layer_2 44
+--------Neurones for layer_3 28
+--------Neurones for layer_4 47
+--------Neurones for layer_5 29
+--------Neurones for layer_6 38
+--------Neurones for layer_7 48
+--------Neurones for layer_8 34
+--------Fitness:(54.399674487007211,)---------------------------------------------------------------Population_49
+ Functions: Activ sigmoid Optim Adagrad Loss mean_squared_error Weight init lecun_uniform
+Nr_layers :3
+Neurones for layer_0 34
+--------Neurones for layer_1 21
+--------Neurones for layer_2 36
+--------Fitness:(62.519332081698089,)---------------------------------------------------------------

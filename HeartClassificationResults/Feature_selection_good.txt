@@ -1,0 +1,11 @@
+Feature selection method : get_tree_data
+Score: 65.7650272065
+---------------------------------------------------------------Feature selection method : get_extra_tree_features
+Score: 66.0928957645
+---------------------------------------------------------------Feature selection method : get_elastic_net
+Score: 65.4371585299
+---------------------------------------------------------------Feature selection method : get_lasso_features
+Score: 68.4480872643
+---------------------------------------------------------------Feature selection method : get_lasso_lars_features
+Score: 70.4043711632
+---------------------------------------------------------------
