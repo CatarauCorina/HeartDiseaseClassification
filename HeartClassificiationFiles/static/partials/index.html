@@ -1,0 +1,88 @@
+<h1>Heart Disease Classification </h1>
+
+<p>Algorithm evaluation <a href="/#/about">about page</a>.</p>
+
+<h2>Insert data:</h2>
+
+<div ng-controller="HeartController">
+  <form novalidate class="css-form" >
+    <label>Age (integer 0 - 200):
+    <input type="number" ng-model="user.age" name="age"
+           min="0" max="200" integer />{{age}}</label><br/><br/>
+  
+    Gender: <label><input type="radio" ng-model="user.gender" value="male" />male</label>
+    <label><input type="radio" ng-model="user.gender" value="female" />female</label><br /><br/>
+    
+     <label for="singleSelect"> Chest pain type: </label>
+    <select name="singleSelect" ng-model="user.cp">
+      <option value="typical">Typical</option>
+      <option value="asymptomatic">Asymptomatic</option>
+      <option value="non-anginal">Non-anginal</option>
+       <option value="atypical">Atypical</option>
+
+    </select><br/><br/>
+    
+      <label>Resting BP :
+    <input type="number" ng-model="user.trestbps" name="trestbps"
+           integer />{{trestbps}}</label><br/></br>
+           
+    <label>Serum cholesterol:
+    <input type="number" ng-model="user.chol" name="chol"
+           integer />{{chol}}</label><br/></br>
+           
+    <label>Fasting Blood Sugar > 120 mg/dl ?</br>
+   <label><input type="radio" ng-model="user.fbs" value="true" />Yes</label>
+    <label><input type="radio" ng-model="user.gbs" value="false" />No</label><br /></br>
+    
+    <label>Resting Electrocardiography Results </br>
+    <label><input type="radio" ng-model="user.restecg" value="normal" />Normal</label><br />
+   <label><input type="radio" ng-model="user.restecg" value="hypertrophy" />Hypertrophy</label> <br/>
+    <label><input type="radio" ng-model="user.restecg" value="stt" />STT</label><br /><br />
+
+
+    <label>Maximum heart rate achieved:
+    <input type="number" ng-model="user.thalach" name="thalach"
+            integer />{{thalach}}</label><br/><br/>
+            
+     <label>Exercise induced angina</br>
+   <label><input type="radio" ng-model="user.exang" value="yes" />Yes</label>
+    <label><input type="radio" ng-model="user.exang" value="no" />No</label><br/><br/>
+    
+    
+    <label>ST Depression Induced by Exercise Relative to Rest:
+    <input type="number" ng-model="user.oldpeak" name="oldpeak"
+            integer />{{oldpeak}}</label><br/><br/>
+   
+         <label for="slopeSel"> The slope of the peak exercise ST segment: </label>
+    <select name="slopeSel" ng-model="user.slope">
+      <option value="upsloping">Upsloping</option>
+      <option value="flat">Flat</option>
+      <option value="downsloping">Downsloping</option>
+
+    </select><br/><br/>
+
+    
+         <label for="caSel">Number of major vessels coloured by fluoroscopy: </label>
+    <select name="caSel" ng-model="user.ca">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+
+    </select><br/><br/>
+    
+      <label for="thalSel">Thallium Heart Scan: </label>
+    <select name="thalSel" ng-model="user.thal">
+      <option value="normal">Normal</option>
+      <option value="fixed">Fixed-defect</option>
+      <option value="reversable">Reversable-defect</option>
+
+    </select><br/><br/>
+    
+    
+    <input type="button" ng-click="reset()" value="Reset" />
+    <input type="submit" ng-click="sendData(user)" value="Save" />
+  </form>
+  <pre>user = {{user | json}}</pre>
+  <pre>master = {{master | json}}</pre>
+</div>
